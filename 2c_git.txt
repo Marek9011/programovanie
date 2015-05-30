@@ -39,6 +39,8 @@ git push origin master
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+// INICIALIZACIA
+
 git config --global user.name "Marek9011"
 git config --global user.email "mail.sefcik@gmail.com"
 
@@ -48,19 +50,14 @@ git commit -m "first commit"
 git remote add origin git@github.com:Marek9011/programovanie.git
 git push -u origin master
 
-git add *
-git commit -m "pull"
-git pull    
-//update your local repository to the newest commit
+// SYNCHRONIZACIA
 
-git commit -m "commit"
+	git add *
+	git commit -m "pull"
+git pull    //update your local repository to the newest commit
+---PROGRAMOVANIE---
+git commit -am "commit"   // musi byť 'a'
 git push
 
 git clone git@github.com:Marek9011/programovanie.git
-
-
-ghfghfghmfgh
-fghjfghjfghj
-fghjfghjfg
-hjfghjfghj
 

@@ -1,0 +1,63 @@
+# MINIMAL COMMAND SET
+
+ssh-keygen
+sudo gedit /home/xubuntu/.ssh/id_rsa.pub
+sudo apt-get install git
+
+cd /...
+git init
+git add *
+git commit -m "commit"
+git remote add origin https://github.com/Marek9011/programovanie.git
+git push -u origin master
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+git add *
+git commit -m "commit"
+git push -u origin master
+
+
+http://rogerdudler.github.io/git-guide/
+
+#STIAHNUTIE KOPIE NA DRUHY POCITAC
+git clone git@git.cnl.sk:john.developer/prog-2015.git
+
+
+git branch
+git clone /home/xubuntu/Desktop/git
+git clone https://github.com/AlracWebmaven/playground.git
+
+cd sifra/
+git init
+git status
+git add *
+git status
+git commit -am "prvý komit"
+git remote add origin https://github.com/Marek9011/sifra.git
+git remote -v
+git push origin master
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+git config --global user.name "Marek9011"
+git config --global user.email "mail.sefcik@gmail.com"
+
+git init
+git add *
+git commit -m "first commit"
+git remote add origin git@github.com:Marek9011/programovanie.git
+git push -u origin master
+
+git add *
+git commit -m "pull"
+git pull    
+//update your local repository to the newest commit
+
+git commit -m "commit"
+git push
+
+git clone git@github.com:Marek9011/programovanie.git
+
+
+
+
